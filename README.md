@@ -1,5 +1,6 @@
 # PayPal Agent Toolkit
 
+[![smithery badge](https://smithery.ai/badge/@zhanghaonan777/agent-toolkit)](https://smithery.ai/server/@zhanghaonan777/agent-toolkit)
 The PayPal Agent Toolkit enables popular agent frameworks including OpenAI's Agent SDK, LangChain, Vercel's AI SDK, and Model Context Protocol (MCP) to integrate with PayPal APIs through function calling. It includes support for TypeScript and is built on top of PayPal APIs and the PayPal SDKs.
 
 
@@ -130,7 +131,15 @@ const { text: response } = await generateText({
 
 ## PayPal Model Context Protocol
 
-The PayPal [Model Context Protocol](https://modelcontextprotocol.com/) server allows you to integrate with PayPal APIs through function calling. This protocol supports various tools to interact with different PayPal services.
+The PayPal [Model Context Protocol](https://smithery.ai/server/@zhanghaonan777/agent-toolkit) server allows you to integrate with PayPal APIs through function calling. This protocol supports various tools to interact with different PayPal services.
+
+### Installing via Smithery
+
+To install PayPal Agent Toolkit for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@zhanghaonan777/agent-toolkit):
+
+```bash
+npx -y @smithery/cli install @zhanghaonan777/agent-toolkit --client claude
+```
 
 ### Running MCP Inspector
 
